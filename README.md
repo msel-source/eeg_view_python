@@ -6,7 +6,7 @@ This MEF 3.0 viewer is a python-based GUI with a c-code server.  Both the python
 The page server code is in the page_server subdirectory.  It requires the code from the [meflib repositiory](https://github.com/msel-source/meflib).  The output executable should be either "eeg_page_server" (for Mac) or "eeg_page_server.exe" (for Windows) and should be placed at the same directory level as the python GUI code.
 
 ## Python GUI
-To launch, use "python3 eeg_view.py".  It launches the page server as a subprocess, and creates a temporary folder in an appropriate location.  Files within that temporary folder communicate both ways with the page server.  These temp folders and temp files should be automatically deleted (depending on the OS, it could be upon reboot, or after 3 days, etc), so neither the GUI or server attempts to delete the files.
+To launch, use "python3 eeg_view.py".  Upon loading a data session, the GUI launches the page server as a subprocess, and creates a temporary folder in an appropriate location.  The files within that temporary folder are used to communicate with the page server.  These temp folders and temp files should be automatically deleted (depending on the OS, it could be upon reboot, or after 3 days, etc), so neither the GUI or server attempts to delete the files.
 
 ## Sample Data
 Sample data for MEF 3.0 data can be found [here](https://github.com/msel-source/sampledata).  Below is that sample data plotted using this viewer, on the MacOS operating system.
