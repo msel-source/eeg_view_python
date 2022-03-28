@@ -11,6 +11,6 @@ Upon viewing of a data session, the arrow keys navigate, with up/down controllin
 The page server code is in the page_server subdirectory.  It requires the code from the [meflib repositiory](https://github.com/msel-source/meflib).  The output executable should be either "eeg_page_server" (for Mac) or "eeg_page_server.exe" (for Windows) and should be placed at the same directory level as the python GUI code.
 
 ## Sample Data
-Sample data for MEF 3.0 data can be found [here](https://github.com/msel-source/sampledata).  Below is that sample data plotted using this viewer, on the MacOS operating system.
+Sample data for MEF 3.0 data can be found [here](https://github.com/msel-source/sampledata).  Below is that sample data plotted using this viewer, on Windows 10 operating system.
 
-![plot screenshot](https://github.com/msel-source/sampledata/blob/master/eeg_view_plot3.jpg?raw=true)
+![plot screenshot](https://github.com/msel-source/eeg_view_python/blob/master/sample-snapshot-1.jpg?raw=true)
