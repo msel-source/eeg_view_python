@@ -13,4 +13,4 @@ The page server code is in the page_server subdirectory.  It requires the code f
 ## Sample Data
 Sample data for MEF 3.0 data can be found [here](https://github.com/msel-source/sampledata).  Below is that sample data plotted using this viewer, on Windows 10 operating system.
 
-![plot screenshot](https://github.com/msel-source/eeg_view_python/blob/master/sample-snapshot-1.jpg?raw=true)
+![plot screenshot](https://raw.githubusercontent.com/msel-source/eeg_view_python/main/sample-snapshot-1.jpg?raw=true)
