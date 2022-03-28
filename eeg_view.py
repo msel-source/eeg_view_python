@@ -864,9 +864,9 @@ class MainWindow(QMainWindow):
         #ax.set_xlabel('time (s)')  #this gets cut off at the bottom with tight_layout in effect
         #ax.get_xaxis().set_visible(False)
         ax.get_yaxis().set_visible(False)
-        ax.set_facecolor((.831, .905, .831))  # RGB 212, 231, 212
+        #ax.set_facecolor((.831, .905, .831))  # RGB 212, 231, 212, this is a light green
                                               # (.831, .902, .831) is RGB 212, 230, 212
-        #ax.patch.set_facecolor((.831, .902, .831))
+        ax.set_facecolor((1.0, 1.0, 1.0)) # white
         
         #ax_label.set_ylim(0, self.ylim)
         #ax_label.set_ylim(ax_label.get_ylim()[::-1])
