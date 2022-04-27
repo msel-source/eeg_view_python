@@ -603,9 +603,9 @@ int main(int argc, const char *argv[])
                                         case MEFREC_Epoc_TYPE_CODE:
                                             epoc_ptr = (MEFREC_Epoc_1_0*)((si1*)record_header + RECORD_HEADER_BYTES);
 #ifndef _WIN32
-                                            fprintf(events_out,"%ld,%s,%ld,%s,%s\n", record_header->time, "Epoch", epoc_ptr->duration, (si1*)record_header + MEFREC_Epoc_1_0_TYPE_OFFSET, (si1*)record_header + MEFREC_Epoc_1_0_TEXT_OFFSET);
+                                            fprintf(events_out,"%ld,%s,%ld,%s,%s\n", record_header->time, "Epoch", epoc_ptr->duration, (si1*)record_header + MEFREC_Epoc_1_0_EPOCH_TYPE_OFFSET, (si1*)record_header + MEFREC_Epoc_1_0_TEXT_OFFSET);
 #else
-                                            fprintf(events_out,"%lld,%s,%lld,%s,%s\n", record_header->time, "Epoch", epoc_ptr->duration, (si1*)record_header + MEFREC_Epoc_1_0_TYPE_OFFSET, (si1*)record_header + MEFREC_Epoc_1_0_TEXT_OFFSET);
+                                            fprintf(events_out,"%lld,%s,%lld,%s,%s\n", record_header->time, "Epoch", epoc_ptr->duration, (si1*)record_header + MEFREC_Epoc_1_0_EPOCH_TYPE_OFFSET, (si1*)record_header + MEFREC_Epoc_1_0_TEXT_OFFSET);
 #endif
                                             break;
                                     }
